@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" >
+	<title>King James Digital</title>
+	
+	<link rel="stylesheet" type="text/css" href="KingJames.css">
+	
+	<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+</head>
+<body>
+	<header id = "header">
+		 <a href="#" class="logo"><!-- <img src="images/kjd-logo.png" alt="logo" style="width: 100px; height: 40px; "> --></a>
+		 <ul>
+		 	<li><a href="#home" class="active" onclick="toggle()">Home</a></li>
+		 	<li><a href="#about" onclick="toggle()">About</a></li>
+		 	<li><a href="#services" onclick="toggle()">Service</a></li>
+		 	<li><a href="#latest" onclick="toggle()">Latest</a></li>
+		 	<li><a href="#connect" onclick="toggle()">Connect</a></li>
+		 </ul>
+		 <div class="toggle" onclick="toggle()"></div>
+	</header>
+
+	<section id="home">
+		<div>
+			<div class="container">
+	<img src="images/kjd-logo.png" alt="logo" class="centered">
+	<img src="images/hearo-top.jpg" alt="King James image" class="image1" style="width: 100%;">
+			
+			
+			<a href="#">ABOUT US</a>
+		</div>'
+
+		<!-- <img src="images/hearo-top.jpg" alt="King James image" class="image1"> -->
+	</section>
+
+	<section id="about">
+		<div class="container">
+			<h2>Advertising communications</h2>
+			<img src="images/glyph.png" style="position: absolute; left: 90%;
+			top: 90%">
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer commodo ut arcu ut lobortis. Nulla sed est a eros tempus dictum. Duis ullamcorper ipsum vitae sodales egestas. Pellentesque vitae nisl viverra, aliquam dolor non, rhoncus arcu.</p>
+			<img src="images/hex-gradient.png" style="z-index: 1; position: absolute;">
+
+			<a href="#">READ MORE</a>
+		</div>
+		<img src="images/image-slider-1.jpg" alt="King James image" class="image1">
+	</section>
+
+	<section id="services">
+		<div>
+			<h2>Data analytics</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer commodo ut arcu ut lobortis. Nulla sed est a eros tempus dictum. Duis ullamcorper ipsum vitae sodales egestas. Pellentesque vitae nisl viverra, aliquam dolor non, rhoncus arcu.</p>
+			
+		</div>
+		<img src="images/image-slider-2.jpg" alt="King James image" class="image1">
+	</section>
+
+	<section id="latest">
+		<div>
+			
+			<div class="w3-container">
+  <h2>Latest</h2>
+ 
+
+	
+	
+  
+ <div class="row">
+<div data-aos="fade-up"
+    data-aos-offset="200"
+    data-aos-duration="1000"
+    data-aos-easing="ease-in-out"
+    data-aos-mirror="true"
+    data-aos-once="false"
+    >
+	</div>
+  <div class="column"><div class="container">
+	 <p class="centered">King James Digital win big at the 2017 Loeries</p> 
+	 <img src="images/bg-circle-gradient.png">
+	 <img src="images/arrow-right.png">
+	</div></div>
+  <div class="column"><div class="container">
+	 <p class="centered">Sanlam Conspicious savers</p> 
+	 <img src="images/bg-rectangle-gradient.png">
+	 <img src="images/arrow-right.png">
+	</div></div>
+  <div class="column"><div class="container">
+	 <p class="centered">Front end developer Cape town</p> 
+	 <img src="images/bg-square-gradient.png">
+	 <img src="images/arrow-right.png">
+	</div></div>
+	</div>
+</div>
+
+			
+		
+	</section>
+
+	
+		<div>
+		<div class="footer">
+  <p>Footer</p>
+</div>
+			
+		</div>
+		
+	
+
+	
+<script type="text/javascript">
+	function toggle(){
+		var header = document.getElementById("header")
+		header.classlist.toggle('active')
+	}
+
+
+</script>
+<script>
+  AOS.init();
+  AOS.init({
+  // Global settings:
+  disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+  startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
+  initClassName: 'aos-init', // class applied after initialization
+  animatedClassName: 'aos-animate', // class applied on animation
+  useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
+  disableMutationObserver: false, // disables automatic mutations' detections (advanced)
+  debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
+  throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
+  
+
+  // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+  offset: 120, // offset (in px) from the original trigger point
+  delay: 0, // values from 0 to 3000, with step 50ms
+  duration: 400, // values from 0 to 3000, with step 50ms
+  easing: 'ease', // default easing for AOS animations
+  once: false, // whether animation should happen only once - while scrolling down
+  mirror: false, // whether elements should animate out while scrolling past them
+  anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
+
+});
+</script>
+
+
+
+
+<!-- <section>
+	<div class="container">
+	<img src="images/kjd-logo.png" alt="logo" class="centered">
+	<img src="images/hearo-top.jpg" alt="King James image" class="image1">
+
+<div class="div2">
+	<p class="para1">We offer an interconnected set of services to help our clients respond to the disruptions and seize the opportunities of the digital age.
+		<br>
+		<br>
+		 <button><a href="">ABOUT US</a></button> <img src="images/arrow-right.png" alt="arrow-right" class="arrow-1"></p>
+	</div>
+</section>
+
+<section class="section2">
+<img src="images/arrowEdit.png" alt="arrow" class="arrow2">
+<img src="images/hex-gradient.png" alt="hexagon" class="hex">
+<img src="images/image-slider-1.jpg" alt="image slider" class="slider1">
+</section> -->
+
+</body>
+</html>
